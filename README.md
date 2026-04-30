@@ -1,9 +1,12 @@
 ## Simple CPU Simulator with Verification
 
-This project implements a minimal CPU simulator in Python along with verification tests and automated test generation.
+In this project, I tried to implement a minimal CPU simulator in Python, with verification tests and automated test generation. It has:
 - 4-register CPU model (R0–R3)
 - Basic instruction set: MOV, ADD, SUB
 - Deterministic unit tests
 - Randomized testing for bug detection
 
-I built this project to explore concepts from hardware design verification, including instruction correctness and automated test generation.
+In building this, I wanted to explore hardware design verification concepts, such as instruction correctness and automated test generation.
+### How to run:
+Run tests: python test_cpu.py <br>
+Run random verification: python random_test.py
